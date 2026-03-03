@@ -1,0 +1,27 @@
+{
+  "open_rules": [
+    {
+      "name": "Bank Account Updates",
+      "domain": "bank.in",
+      "keywords": ["account update", "instaalerts"]
+    },
+    {
+      "name": "Shopping Receipts",
+      "domain": "",
+      "keywords": ["order delivered", "delivered today", "order summary"]
+    }
+  ],
+  "delete_rules": [
+    {
+      "name": "Ride Share Receipts",
+      "domain": "uber.com",
+      "keywords": ["charge summary", "trip completion"]
+    },
+    {
+      "name": "Generic Statements",
+      "domain": "",
+      "keywords": ["monthly statement", "e-statement"]
+    }
+  ],
+  "safety_keywords": ["fraud", "unauthorized", "security alert"]
+}
